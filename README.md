@@ -52,4 +52,7 @@ export default tseslint.config({
   },
 })
 ```
+<<<<<<< HEAD
 # google-app
+=======
+>>>>>>> 00678c8 (Primeiro commit)

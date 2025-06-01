@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node_modules
 dist
 build
@@ -5,3 +6,12 @@ build
 Dockerfile
 .git
 .gitignore
+=======
+node_modules
+dist
+build
+.dockerignore
+Dockerfile
+.git
+.gitignore
+>>>>>>> 00678c8 (Primeiro commit)
