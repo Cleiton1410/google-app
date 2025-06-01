@@ -1,0 +1,154 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Corpo */
+body {
+  background-color: #202124;
+  color: #e8eaed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cabeçalho */
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 30px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav a {
+  color: #e8eaed;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.apps {
+  width: 24px;
+  height: 24px;
+  background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+  background-size: cover;
+  cursor: pointer;
+}
+
+.profile {
+  width: 32px;
+  height: 32px;
+  background-color: #8ab4f8;
+  color: #202124;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Conteúdo principal */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 92px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 40px;
+  font-family: 'Product Sans', Arial, sans-serif;
+}
+
+.search-container {
+  width: 100%;
+  max-width: 580px;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 40px;
+  border-radius: 24px;
+  border: none;
+  outline: none;
+  background-color: #303134;
+  color: #e8eaed;
+  font-size: 16px;
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9aa0a6;
+}
+
+.search-buttons {
+  margin-top: 24px;
+  display: flex;
+  gap: 10px;
+}
+
+.search-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #303134;
+  color: #e8eaed;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-buttons button:hover {
+  background-color: #3c4043;
+}
+
+/* Rodapé */
+.footer {
+  background-color: #171717;
+  font-size: 14px;
+  color: #9aa0a6;
+}
+
+.footer-top {
+  padding: 15px 30px;
+  border-bottom: 1px solid #3c4043;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  flex-wrap: wrap;
+}
+
+.footer-bottom a {
+  color: #9aa0a6;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
